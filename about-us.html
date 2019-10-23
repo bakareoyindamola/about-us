@@ -32,6 +32,7 @@ h2 {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     width: 75%;
     margin: auto;
     justify-content: space-between;
@@ -53,7 +54,7 @@ h2 {
     background-color: #3D9BDA;
     width: 95%;
     margin: 40px auto 30px;
-    padding: 20px 50px;
+    padding: 20px 40px;
     color: white;
     font-weight: bold;
     font-size: 23px;
@@ -68,6 +69,17 @@ h2 {
 ul {
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 880px) {
+    .col {
+        width: 45%;
+        margin: 2.5%;
+    }
+    
+    .about-text {
+        font-weight: normal;
+    }
 }
         </style>
     </head>
